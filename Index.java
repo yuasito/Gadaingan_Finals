@@ -60,6 +60,7 @@ class Index {
                             first_name = input.nextLine();
                             System.out.print("Last Name: ");
                             last_name = input.nextLine();
+                            user.updateUserCredential(option, first_name, last_name);
                         }
                         break;
                     case "5":
